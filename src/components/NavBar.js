@@ -2,16 +2,39 @@ import React from 'react'
 
 function NavBar() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 top-0 right-100 w-[50vw] bg-green-900 p-20 pl-5 text-white fixed h-full ">
-  <h2 className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 top-10 mt-0 text-1xl font-semibold text-white ml-20 text-5xl font-semibold text-white">Sami Fares</h2>
-  <ul className="">
-      <li>About</li>
-      <li>Projects</li>
-      <li>Experience</li>
-      <li>Resume</li>
-      <li>Contact</li>
-  </ul>
-</div>
+    <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-emerald-500 mb-3">
+    <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div className="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
+        <a className="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="#pablo">
+          Sami Fares
+        </a>
+        <button className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button">
+          <span className="block relative w-6 h-px rounded-sm bg-white"></span>
+          <span className="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+          <span className="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+        </button>
+      </div>
+      <div className="lg:flex flex-grow items-center">
+        <ul className="flex flex-col lg:flex-row list-none ml-auto">
+            <li className="nav-item">
+              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+               About
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                Skills
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="#pablo">
+                Projects
+              </a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   )
 }
 
