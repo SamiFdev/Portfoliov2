@@ -1,16 +1,7 @@
-import './App.css';
-import NavBar from './components/NavBar';
-import About from './components/About';
+import './App.css'
 
 function App() {
-  return (
-  <>
-      <NavBar />
-      <header className="App-header">
-      <About />
-      </header>
-    </>
-  );
+    return <main></main>
 }
 
-export default App;
+export default App
