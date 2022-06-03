@@ -1,0 +1,13 @@
+.container {
+    padding-top: 10px;
+    width: 300px;
+    height: 320px;
+    display: flex;
+}
+
+.container img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+}
