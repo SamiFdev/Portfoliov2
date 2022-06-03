@@ -3,11 +3,15 @@
     padding: 10px 15px;
     text-transform: uppercase;
     text-align: center;
+    list-style-type: none;
     display: flex;
     justify-content: space-evenly;
+    height: 80px;
 }
 
 .nav a {
     color: white;
     text-decoration: none;
+    display: block;
+    margin-top: 25px;
 }
