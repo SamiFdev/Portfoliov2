@@ -1,7 +1,5 @@
-import React from 'react'
-
-function index() {
+function Projects() {
     return <div>index</div>
 }
 
-export default index
+export default Projects
