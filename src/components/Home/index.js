@@ -11,9 +11,7 @@ function Home() {
                 bridge my passions through code.
             </p>
             <section className={styles.imgContainer}>
-                <div>
-                    <img className={styles.img} src={Profilepic} alt="me" />
-                </div>
+                <img src={Profilepic} alt="me" />
             </section>
             <section className={styles.sociallinks}>
                 <a
