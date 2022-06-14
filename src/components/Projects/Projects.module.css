@@ -1,0 +1,29 @@
+.ProjectImg {
+    display: flex;
+    height: 500px;
+    width: auto;
+    justify-items: center;
+    margin: auto;
+}
+
+.FreelanceLink {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 15px;
+}
+
+.ProjectDescription {
+    display: flex;
+    text-align: center;
+}
+
+.Built {
+    display: flex;
+    justify-content: center;
+}
+
+.ProjectTech {
+    display: flex;
+    justify-content: center;
+}
