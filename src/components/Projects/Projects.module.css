@@ -7,23 +7,30 @@
 }
 
 .FreelanceLink {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    display: inline-block;
+    text-align: center;
     padding: 15px;
 }
 
 .ProjectDescription {
     display: flex;
     text-align: center;
+    overflow: hidden;
 }
 
 .Built {
     display: flex;
     justify-content: center;
+    text-decoration: underline;
 }
 
 .ProjectTech {
     display: flex;
+    justify-content: center;
+}
+
+.ProjectLinkCont {
+    display: flex;
+    overflow: hidden;
     justify-content: center;
 }

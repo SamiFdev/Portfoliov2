@@ -21,13 +21,15 @@ const Freelancer = () => {
             <p2 className={styles.ProjectTech}>
                 CSS, JS, React, Apollo, MongoDb
             </p2>
-            <a
-                className={styles.FreelanceLink}
-                href="https://freelancersal.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer">
-                Check It Out!
-            </a>
+            <div className={styles.ProjectLinkCont}>
+                <a
+                    className={styles.FreelanceLink}
+                    href="https://freelancersal.herokuapp.com/"
+                    target="_blank"
+                    rel="noreferrer">
+                    Check It Out!
+                </a>
+            </div>
         </section>
     )
 }
