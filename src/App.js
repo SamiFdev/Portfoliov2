@@ -4,8 +4,8 @@ import Home from './components/Home'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
 import Navbar from './components/Navbar'
-import Neha from './components/Projects/Neha'
 import Footer from './components/Footer'
+import Freelancer from './components/Projects/Freelancer'
 
 function App() {
     return (
@@ -22,12 +22,15 @@ function App() {
                         }
                     />
                     <Route path="/projects" element={<Projects />} />
-                    <Route path="/projects/neha" element={<Neha />} />
+                    <Route
+                        path="/projects/freelancer"
+                        element={<Freelancer />}
+                    />
                     <Route path="/skills" element={<Skills />} />
                     <Route path="*" element={<div>404</div>} />
                 </Routes>
-                <Footer />
             </main>
+            <Footer />
         </Router>
     )
 }

@@ -33,6 +33,7 @@ p {
 
 .writeups {
     display: flex;
+    margin-top: 10px;
 }
 
 .writeups .blurbs {
