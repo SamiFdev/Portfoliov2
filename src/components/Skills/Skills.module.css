@@ -1,0 +1,20 @@
+.skillsheader {
+    font-size: 35px;
+    text-align: center;
+}
+
+.skillscontainer {
+    display: grid;
+    border: 3px solid slategray;
+    justify-content: center;
+    grid-template-columns: repeat(3, 80px);
+    grid-auto-rows: 100px;
+    grid-gap: 70px;
+    width: auto;
+    margin: auto;
+    padding: 15px;
+}
+
+.skillsicon:hover {
+    transform: scale(1.5);
+}

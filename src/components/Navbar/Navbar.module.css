@@ -6,7 +6,6 @@
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
-    height: 80px;
     position: fixed;
     width: 100%;
     top: 0;
@@ -18,4 +17,7 @@
     text-decoration: none;
     display: block;
     margin-top: 25px;
+}
+.nav a:hover {
+    transform: scale(1.5);
 }
