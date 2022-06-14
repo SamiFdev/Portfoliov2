@@ -1,4 +1,4 @@
-import { GitHub, Linkedin, Mail, Download } from 'react-feather'
+import { GitHub, Linkedin, Mail, Download, Map } from 'react-feather'
 import styles from './Footer.module.css'
 
 function Footer() {
