@@ -11,17 +11,17 @@ import {
 function Skills() {
     return (
         <body>
-            <h3 className={styles.skillsheader}>Familiar Technologies</h3>
-            <section className={styles.skillscontainer}>
-                <FaHtml5 className={styles.skillsicon} size={100} />
-                <FaCss3 className={styles.skillsicon} size={100} />
-                <TbBrandJavascript className={styles.skillsicon} size={100} />
-                <FaReact className={styles.skillsicon} size={100} />
-                <FaNode className={styles.skillsicon} size={100} />
-                <SiMysql className={styles.skillsicon} size={100} />
-                <SiMongodb className={styles.skillsicon} size={100} />
-                <SiApollographql className={styles.skillsicon} size={100} />
-                <SiTailwindcss className={styles.skillsicon} size={100} />
+            <h3 className={styles.skillsHeader}>Familiar Technologies</h3>
+            <section className={styles.skillsContainer}>
+                <FaHtml5 className={styles.skillsIcon} />
+                <FaCss3 className={styles.skillsIcon} />
+                <TbBrandJavascript className={styles.skillsIcon} />
+                <FaReact className={styles.skillsIcon} />
+                <FaNode className={styles.skillsIcon} />
+                <SiMysql className={styles.skillsIcon} />
+                <SiMongodb className={styles.skillsIcon} />
+                <SiApollographql className={styles.skillsIcon} />
+                <SiTailwindcss className={styles.skillsIcon} />
             </section>
         </body>
     )

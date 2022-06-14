@@ -1,4 +1,5 @@
-import { GitHub, Linkedin, Mail, Download } from 'react-feather'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FiMail, FiDownload } from 'react-icons/fi'
 import styles from './Footer.module.css'
 
 function Footer() {
@@ -10,24 +11,24 @@ function Footer() {
                 href="https://github.com/samifdev"
                 target="_blank"
                 rel="noreferrer">
-                <GitHub color="black" size={48} />
+                <FaGithub color="black" size={48} />
             </a>
             <a className={styles.maillink} href="mailto:samifdev@gmail.com">
-                <Mail color="black" size={48} />
+                <FiMail color="black" size={48} />
             </a>
             <a
                 className={styles.linkedinlink}
                 href="https://www.linkedin.com/in/sami-f81291/"
                 target="_blank"
                 rel="noreferrer">
-                <Linkedin color="black" size={48} />
+                <FaLinkedin color="black" size={48} />
             </a>
             <a
                 href="./assets/Sami_Fares_Resume.pdf"
                 download
                 target="blank"
                 rel="noreferrer">
-                <Download color="black" size={48} />
+                <FiDownload color="black" size={48} />
             </a>
         </footer>
     )
