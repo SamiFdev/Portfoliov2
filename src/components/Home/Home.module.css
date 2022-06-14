@@ -1,7 +1,7 @@
 .homeContainer {
     height: auto;
     max-width: 100%;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .imgContainer {
@@ -16,11 +16,11 @@
     height: 400px;
     margin: auto;
     display: flex;
-    padding-top: 5%;
+
     position: relative;
 }
 
-h1 {
+.homeContainer h1 {
     text-align: center;
     font-size: xx-large;
     text-shadow: 1px 1px black;
@@ -29,11 +29,21 @@ h1 {
 p {
     text-align: center;
     color: black;
-    text-transform: capitalize;
 }
 
-.sociallinks {
-    padding: 40px 35%;
+.writeups {
     display: flex;
-    justify-content: space-between;
+}
+
+.writeups .blurbs {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    margin: 10px;
+    text-align: justify;
+}
+
+span {
+    text-align: center;
+    font-size: 20px;
 }
