@@ -23,7 +23,7 @@ function Footer() {
                 <Linkedin color="black" size={48} />
             </a>
             <a
-                href="./assets/Sami Fares_Resume.pdf"
+                href="./assets/Sami_Fares_Resume.pdf"
                 download
                 target="blank"
                 rel="noreferrer">
