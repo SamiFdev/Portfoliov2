@@ -23,7 +23,9 @@ const Freelancer = () => {
             </p2>
             <a
                 className={styles.FreelanceLink}
-                href="https://freelancersal.herokuapp.com/">
+                href="https://freelancersal.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer">
                 Check It Out!
             </a>
         </section>
