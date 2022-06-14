@@ -29,8 +29,8 @@ function App() {
                     <Route path="/skills" element={<Skills />} />
                     <Route path="*" element={<div>404</div>} />
                 </Routes>
+                <Footer />
             </main>
-            <Footer />
         </Router>
     )
 }
