@@ -1,13 +1,30 @@
 import { Link } from 'react-router-dom'
 import landingpic from '../../assets/landing.png'
+import undercpic from '../../assets/underc.webp'
+import styles from './Projects.module.css'
 
 function Projects() {
     return (
-        <div>
+        <section>
             <h1>PROJECTS</h1>
+            <div className={styles.ProjectBoxes}>
+                <Link to="/projects/freelancer">
+                    <img
+                        className={styles.ProjectThumbnail}
+                        src={landingpic}
+                        alt="freelancer"></img>
+                </Link>
+            </div>
 
-            <Link to="/projects/freelancer">Freelancer</Link>
-        </div>
+            <div className={styles.ProjectBoxes}>
+                <Link to="/projects/placeholder">
+                    <img
+                        className={styles.ProjectThumbnail}
+                        src={undercpic}
+                        alt="freelancer"></img>
+                </Link>
+            </div>
+        </section>
     )
 }
 

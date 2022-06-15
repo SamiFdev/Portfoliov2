@@ -34,3 +34,20 @@
     overflow: hidden;
     justify-content: center;
 }
+
+.ProjectThumbnail {
+    width: 850px;
+    height: 500px;
+}
+
+.ProjectThumbnail:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.ProjectBoxes {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
