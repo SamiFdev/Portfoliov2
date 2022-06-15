@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import landingpic from '../../assets/landing.png'
+import undercpic from '../../assets/underc.webp'
 import styles from './Projects.module.css'
 
 function Projects() {
@@ -14,10 +15,14 @@ function Projects() {
                         alt="freelancer"></img>
                 </Link>
             </div>
-            <div className={styles.LinkContainer}>
-                {/* <Link className={styles.ProjectRoute} to="/projects/freelancer">
-                    Freelancer
-                </Link> */}
+
+            <div className={styles.ProjectBoxes}>
+                <Link to="/projects/placeholder">
+                    <img
+                        className={styles.ProjectThumbnail}
+                        src={undercpic}
+                        alt="freelancer"></img>
+                </Link>
             </div>
         </section>
     )

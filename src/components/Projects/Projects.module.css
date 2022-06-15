@@ -36,8 +36,8 @@
 }
 
 .ProjectThumbnail {
-    width: 35%;
-    height: auto;
+    width: 850px;
+    height: 500px;
 }
 
 .ProjectThumbnail:hover {
@@ -46,20 +46,8 @@
     transform: scale(1.1);
 }
 
-/* .ProjectRoute {
-    display: inline-block;
-    text-align: center;
-    padding: 15px;
-} */
-
-.LinkContainer {
-    display: flex;
-    overflow: hidden;
-    justify-content: center;
-}
-
 .ProjectBoxes {
-    display: flex;
-    justify-content: center;
     text-align: center;
+    margin: auto;
+    padding: 15px;
 }

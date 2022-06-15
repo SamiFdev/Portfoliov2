@@ -11,12 +11,14 @@
     grid-auto-rows: 100px;
     grid-gap: 70px;
     width: auto;
-    margin: auto;
+
     padding: 15px;
 }
 
 .skillsContainer svg {
     font-size: 100px;
+    width: 75%;
+    margin: auto;
 }
 
 .skillsIcon:hover {

@@ -6,6 +6,7 @@ import Skills from './components/Skills'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Freelancer from './components/Projects/Freelancer'
+import Placeholder from './components/Projects/Placeholder'
 
 function App() {
     return (
@@ -25,6 +26,10 @@ function App() {
                     <Route
                         path="/projects/freelancer"
                         element={<Freelancer />}
+                    />
+                    <Route
+                        path="/projects/placeholder"
+                        element={<Placeholder />}
                     />
                     <Route path="/skills" element={<Skills />} />
                     <Route path="*" element={<div>404</div>} />
