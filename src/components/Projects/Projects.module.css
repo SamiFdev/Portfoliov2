@@ -34,3 +34,32 @@
     overflow: hidden;
     justify-content: center;
 }
+
+.ProjectThumbnail {
+    width: 35%;
+    height: auto;
+}
+
+.ProjectThumbnail:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* .ProjectRoute {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+} */
+
+.LinkContainer {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.ProjectBoxes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
