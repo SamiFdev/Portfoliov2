@@ -5,14 +5,13 @@
 
 .skillsContainer {
     display: grid;
-    border: 3px solid slategray;
+    border-top: 3px solid slategray;
     justify-content: center;
-    grid-template-columns: repeat(3, 80px);
+    grid-template-columns: repeat(5, 80px);
     grid-auto-rows: 100px;
-    grid-gap: 70px;
+    grid-gap: 30px;
     width: auto;
-
-    padding: 15px;
+    padding: 6rem;
 }
 
 .skillsContainer svg {
@@ -23,4 +22,15 @@
 
 .skillsIcon:hover {
     transform: scale(1.5);
+    transition-delay: 0.5s;
+}
+
+.skillsSpan {
+    font-size: 20px;
+}
+
+.skillsBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
