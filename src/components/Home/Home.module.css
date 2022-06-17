@@ -33,15 +33,17 @@ p {
 
 .writeups {
     display: flex;
-    margin-top: 10px;
+    gap: 5rem;
+    padding: 20px;
 }
 
 .writeups .blurbs {
     display: flex;
     flex-direction: column;
     border: 1px black solid;
-    margin: 10px;
+    border-radius: 10%;
     text-align: justify;
+    padding: 5px;
 }
 
 span {

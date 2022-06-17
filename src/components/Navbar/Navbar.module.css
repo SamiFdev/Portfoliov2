@@ -1,6 +1,5 @@
 .nav {
     background-color: #065252;
-    padding: 10px 15px;
     text-transform: uppercase;
     text-align: center;
     list-style-type: none;
@@ -10,14 +9,22 @@
     width: 100%;
     top: 0;
     z-index: 2;
+    height: 6%;
+    align-items: center;
+    padding: 5px;
 }
 
 .nav a {
     color: white;
     text-decoration: none;
+}
 
-    margin-top: 25px;
+.nav :global(.active) {
+    border: 0.5px solid white;
+    border-radius: 15%;
+    transform: scale(1.5);
 }
 .nav a:hover {
     transform: scale(1.5);
+    transition-delay: 0.15s;
 }
