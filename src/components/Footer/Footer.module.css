@@ -1,5 +1,5 @@
 .footer {
-    background-color: #065252;
+    background-color: steelblue;
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -19,5 +19,6 @@
 }
 
 .footerLinks a svg:hover {
-    filter: invert(0.5) sepia(1) hue-rotate(100deg) saturate(5) brightness(1);
+    /* filter: invert(0.5) sepia(3) hue-rotate(200deg) saturate(5) brightness(1); */
+    filter: invert(1);
 }

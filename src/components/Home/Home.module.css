@@ -34,19 +34,51 @@ p {
 .writeups {
     display: flex;
     gap: 5rem;
-    padding: 20px;
+    padding: 2em;
 }
 
 .writeups .blurbs {
     display: flex;
     flex-direction: column;
     border: 1px black solid;
-    border-radius: 10%;
+    border-radius: 15px;
     text-align: justify;
     padding: 5px;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
-
+.blurbs:hover {
+    box-shadow: inset 600px 300px 6px 0px steelblue;
+}
 span {
     text-align: center;
     font-size: 20px;
+}
+
+.oneLiner {
+    overflow: hidden;
+    width: 80%;
+    border-right: 0.15em solid steelblue;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-size: 25px;
+    letter-spacing: 0.15em;
+    animation: typing 4.5s steps(50), blink-caret 0.5s step-end infinite;
+    padding: 3em;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    45% {
+        border-color: slategray;
+    }
 }

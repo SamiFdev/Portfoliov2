@@ -1,15 +1,15 @@
 .nav {
-    background-color: #065252;
+    background-color: steelblue;
     text-transform: uppercase;
     text-align: center;
     list-style-type: none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 2;
-    height: 6%;
+    height: 4rem;
     align-items: center;
     padding: 5px;
 }
@@ -27,4 +27,46 @@
 .nav a:hover {
     transform: scale(1.5);
     transition-delay: 0.15s;
+}
+
+.navLinksBox {
+    display: flex;
+}
+
+.navName {
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* overflow: hidden;
+    font-family: monospace;
+    border-right: 0.15em solid orange;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 0.15em;
+    animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: orange;
+    } */
+}
+
+.linkGroup {
+    display: flex;
+    gap: 5rem;
+    padding: 5rem;
 }
