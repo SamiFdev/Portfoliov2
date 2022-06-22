@@ -54,7 +54,7 @@
     /* -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1); */
-    transition-delay: 0.25s;
+    transition: 0.25s;
     transform: skew(3deg, 3deg);
 }
 

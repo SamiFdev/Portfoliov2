@@ -22,7 +22,7 @@
 
 .skillsIcon:hover {
     transform: scale(1.5);
-    transition-delay: 0.25s;
+    transition: 0.25s;
 }
 
 .skillsSpan {

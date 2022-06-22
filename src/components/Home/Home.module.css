@@ -28,7 +28,6 @@
 
 p {
     text-align: center;
-    color: black;
 }
 
 .writeups {
@@ -47,7 +46,12 @@ p {
     transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 .blurbs:hover {
-    box-shadow: inset 600px 300px 6px 0px steelblue;
+    box-shadow: inset 600px 300px 6px 0px var(--primary-accent);
+    color: white;
+}
+
+.blurbs p:hover {
+    color: white;
 }
 span {
     text-align: center;
@@ -57,7 +61,7 @@ span {
 .oneLiner {
     overflow: hidden;
     width: 80%;
-    border-right: 0.15em solid steelblue;
+    border-right: 0.15em solid var(--primary-accent);
     white-space: nowrap;
     margin: 0 auto;
     font-size: 25px;

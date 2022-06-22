@@ -1,5 +1,5 @@
 .footer {
-    background-color: steelblue;
+    background-color: var(--primary-accent);
     display: flex;
     flex-direction: column;
     gap: 1rem;
