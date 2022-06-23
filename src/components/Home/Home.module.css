@@ -35,6 +35,18 @@ p {
     gap: 5rem;
     padding: 2em;
 }
+@media screen and (max-width: 750px) {
+    .writeups {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .writeups {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+}
 
 .writeups .blurbs {
     display: flex;
@@ -59,39 +71,45 @@ span {
 }
 
 .oneLiner {
-    /* overflow: hidden;
-    width: 80%;
+    overflow: hidden;
+    width: 65rem;
     border-right: 0.15em solid var(--primary-accent);
-    white-space: nowrap; */
+    white-space: nowrap;
     display: flex;
     align-items: center;
     gap: 2px;
     margin: 3em auto;
-    font-size: 25px;
-    letter-spacing: 0.15em;
-    /* animation: typing 4.5s steps(50), blink-caret 0.5s step-end infinite; */
+    font-size: 1.55rem;
+
+    animation: typing 4.5s steps(55), blink-caret 0.5s step-end infinite;
 }
 
-.oneLiner::after {
-    content: '';
-    width: 2px;
-    height: 30px;
-    background-color: var(--primary-accent);
-    display: inline-block;
-    animation: cursor 1.5s steps(2) infinte;
+@media screen and (max-width: 750px) {
+    .oneLiner {
+        width: 65vw;
+        overflow: unset;
+        border: none;
+        white-space: unset;
+        animation: unset;
+    }
 }
-@keyframes cursor {
-    0% {
-        opacity: 0;
+@media screen and (max-width: 1100px) {
+    .oneLiner {
+        border: none;
+        white-space: unset;
+        animation: unset;
+        overflow: auto;
+        width: 90vw;
+        margin: 2rem auto;
     }
 }
 
-/* @keyframes typing {
+@keyframes typing {
     from {
         width: 0;
     }
     to {
-        width: 80%;
+        width: 65rem;
     }
 }
 @keyframes blink-caret {
@@ -102,4 +120,4 @@ span {
     45% {
         border-color: slategray;
     }
-} */
+}

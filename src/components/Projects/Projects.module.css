@@ -50,6 +50,17 @@
     border-radius: 2%;
 }
 
+@media screen and (max-width: 1000px) {
+    .ProjectThumbnail {
+        margin: 2rem auto;
+    }
+    .ProjectBoxes {
+        flex-direction: column;
+        gap: unset;
+        padding: unset;
+    }
+}
+
 .ProjectThumbnail:hover {
     transition: 0.25s;
     transform: skew(3deg, 3deg);

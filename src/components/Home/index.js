@@ -9,7 +9,7 @@ function Home() {
             </section>
             <p className={styles.oneLiner}>
                 I embrace collaboration. My goals are to be better everyday and
-                bridge my passions through code
+                bridge my passions through code.
             </p>
             <div className={styles.writeups}>
                 <div className={styles.blurbs}>
