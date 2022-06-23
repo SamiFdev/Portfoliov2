@@ -59,17 +59,34 @@ span {
 }
 
 .oneLiner {
-    overflow: hidden;
+    /* overflow: hidden;
     width: 80%;
     border-right: 0.15em solid var(--primary-accent);
-    white-space: nowrap;
-    margin: 0 auto;
+    white-space: nowrap; */
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 3em auto;
     font-size: 25px;
     letter-spacing: 0.15em;
-    animation: typing 4.5s steps(50), blink-caret 0.5s step-end infinite;
-    padding: 3em;
+    /* animation: typing 4.5s steps(50), blink-caret 0.5s step-end infinite; */
 }
-@keyframes typing {
+
+.oneLiner::after {
+    content: '';
+    width: 2px;
+    height: 30px;
+    background-color: var(--primary-accent);
+    display: inline-block;
+    animation: cursor 1.5s steps(2) infinte;
+}
+@keyframes cursor {
+    0% {
+        opacity: 0;
+    }
+}
+
+/* @keyframes typing {
     from {
         width: 0;
     }
@@ -85,4 +102,4 @@ span {
     45% {
         border-color: slategray;
     }
-}
+} */

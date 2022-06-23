@@ -6,7 +6,7 @@ import styles from './Projects.module.css'
 function Projects() {
     return (
         <section>
-            <h1>Check Out Some Previous Work</h1>
+            <h1>Check Out Some Of My Work</h1>
             <div className={styles.ProjectBoxes}>
                 <Link to="/projects/freelancer">
                     <img
