@@ -12,6 +12,24 @@
     gap: 7rem;
 }
 
+@media screen and (max-width: 370px) {
+    .footerLinks {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .footerLinks {
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .footerLinks {
+        gap: 2rem;
+    }
+}
+
 .Copyright {
     color: white;
     margin: auto;

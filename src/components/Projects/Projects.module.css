@@ -61,6 +61,20 @@
     }
 }
 
+@media screen and (max-width: 370px) {
+    .ProjectThumbnail {
+        width: 20rem;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .ProjectThumbnail {
+        width: 22rem;
+        height: 20rem;
+    }
+}
+
 .ProjectThumbnail:hover {
     transition: 0.25s;
     transform: skew(3deg, 3deg);

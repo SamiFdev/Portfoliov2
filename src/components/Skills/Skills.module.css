@@ -14,6 +14,18 @@
     padding: 6rem;
 }
 
+@media screen and (max-width: 375px) {
+    .skillsContainer {
+        grid-template-columns: repeat(3, 5rem);
+    }
+}
+
+@media screen and (max-width: 552px) {
+    .skillsContainer {
+        grid-template-columns: repeat(3, 5rem);
+    }
+}
+
 .skillsContainer svg {
     font-size: 100px;
     width: 75%;
