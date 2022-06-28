@@ -71,7 +71,7 @@ span {
 
 .oneLiner {
     overflow: hidden;
-    width: 65rem;
+    width: 92vw;
     border-right: 0.15em solid var(--primary-accent);
     white-space: nowrap;
     display: flex;
@@ -108,7 +108,7 @@ span {
         width: 0;
     }
     to {
-        width: 65rem;
+        width: 92vw;
     }
 }
 @keyframes blink-caret {
