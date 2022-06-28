@@ -1,7 +1,6 @@
 .homeContainer {
     height: auto;
     max-width: 100%;
-    /* margin: auto; */
 }
 
 .imgContainer {
@@ -28,23 +27,96 @@
 
 p {
     text-align: center;
-    color: black;
 }
 
 .writeups {
     display: flex;
-    margin-top: 10px;
+    gap: 5rem;
+    padding: 2em;
+}
+@media screen and (max-width: 400px) {
+    .writeups {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .writeups {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
 }
 
 .writeups .blurbs {
     display: flex;
     flex-direction: column;
     border: 1px black solid;
-    margin: 10px;
+    border-radius: 15px;
     text-align: justify;
+    padding: 5px;
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.blurbs:hover {
+    box-shadow: inset 600px 300px 6px 0px var(--primary-accent);
+    color: white;
 }
 
+.blurbs p:hover {
+    color: white;
+}
 span {
     text-align: center;
     font-size: 20px;
+}
+
+.oneLiner {
+    overflow: hidden;
+    width: 65rem;
+    border-right: 0.15em solid var(--primary-accent);
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    margin: 3em auto;
+    font-size: 1.55rem;
+
+    animation: typing 4.5s steps(55), blink-caret 0.5s step-end infinite;
+}
+
+@media screen and (max-width: 750px) {
+    .oneLiner {
+        width: 65vw;
+        overflow: unset;
+        border: none;
+        white-space: unset;
+        animation: unset;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .oneLiner {
+        border: none;
+        white-space: unset;
+        animation: unset;
+        overflow: auto;
+        width: 90vw;
+        margin: 2rem auto;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 65rem;
+    }
+}
+@keyframes blink-caret {
+    from,
+    to {
+        border-color: transparent;
+    }
+    45% {
+        border-color: slategray;
+    }
 }

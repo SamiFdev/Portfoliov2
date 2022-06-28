@@ -1,8 +1,15 @@
+.ProjectContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
 .ProjectImg {
     display: flex;
-    height: 500px;
-    width: auto;
-    justify-items: center;
+    height: 50%;
+    width: 40%;
     margin: auto;
 }
 
@@ -16,6 +23,7 @@
     display: flex;
     text-align: center;
     overflow: hidden;
+    padding: 2rem;
 }
 
 .Built {
@@ -36,18 +44,45 @@
 }
 
 .ProjectThumbnail {
-    width: 850px;
-    height: 500px;
+    display: flex;
+    width: auto;
+    height: 15rem;
+    border-radius: 2%;
+}
+
+@media screen and (max-width: 1000px) {
+    .ProjectThumbnail {
+        margin: 2rem auto;
+    }
+    .ProjectBoxes {
+        flex-direction: column;
+        gap: unset;
+        padding: unset;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .ProjectThumbnail {
+        width: 20rem;
+        height: 15rem;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .ProjectThumbnail {
+        width: 22rem;
+        height: 20rem;
+    }
 }
 
 .ProjectThumbnail:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transition: 0.25s;
+    transform: skew(3deg, 3deg);
 }
 
 .ProjectBoxes {
-    text-align: center;
-    margin: auto;
-    padding: 15px;
+    display: flex;
+    padding: 20px;
+    gap: 3rem;
+    justify-content: center;
 }

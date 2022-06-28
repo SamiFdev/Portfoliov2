@@ -4,14 +4,13 @@ import Profilepic from '../../assets/Profilepic.jpg'
 function Home() {
     return (
         <section className={styles.homeContainer}>
-            <h1>Sami Fares</h1>
-            <p>
-                I embrace collaboration. My goals are to be better everyday and
-                bridge my passions through code.
-            </p>
             <section className={styles.imgContainer}>
                 <img src={Profilepic} alt="me" />
             </section>
+            <p className={styles.oneLiner}>
+                I embrace collaboration. My goals are to be better everyday and
+                bridge my passions through code.
+            </p>
             <div className={styles.writeups}>
                 <div className={styles.blurbs}>
                     <span>Tech Journey:</span>
