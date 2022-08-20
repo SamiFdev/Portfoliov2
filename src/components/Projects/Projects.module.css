@@ -21,9 +21,10 @@
 
 .ProjectDescription {
     display: flex;
-    text-align: center;
+    text-align: justify;
     overflow: hidden;
     padding: 2rem;
+    padding-left: 5rem;
 }
 
 .Built {

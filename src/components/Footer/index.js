@@ -18,13 +18,14 @@ function Footer() {
                 </a>
                 <a
                     className={styles.linkedinlink}
-                    href="https://www.linkedin.com/in/sami-f81291/"
+                    href="https://www.linkedin.com/in/sami-fares-a3993a245
+"
                     target="_blank"
                     rel="noreferrer">
                     <FaLinkedin color="white" size={48} />
                 </a>
                 <a
-                    href="./assets/Sami_Fares_Resume.pdf"
+                    href="https://drive.google.com/file/d/1OJK_O-70pxaw6NQPhrP555ttwesZ1-JU/view?usp=sharing"
                     download
                     target="blank"
                     rel="noreferrer">

@@ -6,7 +6,7 @@ import Skills from './components/Skills'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import Freelancer from './components/Projects/Freelancer'
-import Placeholder from './components/Projects/Placeholder'
+import CryptoTracker from './components/Projects/CryptoTracker'
 
 function App() {
     return (
@@ -28,8 +28,8 @@ function App() {
                         element={<Freelancer />}
                     />
                     <Route
-                        path="/projects/placeholder"
-                        element={<Placeholder />}
+                        path="/projects/CryptoTracker"
+                        element={<CryptoTracker />}
                     />
                     <Route path="/skills" element={<Skills />} />
                     <Route path="*" element={<div>404</div>} />

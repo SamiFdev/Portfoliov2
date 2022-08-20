@@ -6,7 +6,9 @@ import {
     SiMongodb,
     SiApollographql,
     SiTailwindcss,
-    SiGraphql
+    SiGraphql,
+    SiRedux,
+    SiTypescript
 } from 'react-icons/si'
 
 function Skills() {
@@ -53,6 +55,14 @@ function Skills() {
                 <div className={styles.skillsBlock}>
                     <SiGraphql className={styles.skillsIcon} />
                     <span className={styles.skillsSpan}>GraphQL</span>
+                </div>
+                <div className={styles.skillsBlock}>
+                    <SiRedux className={styles.skillsIcon} />
+                    <span className={styles.skillsSpan}>Redux</span>
+                </div>
+                <div className={styles.skillsBlock}>
+                    <SiTypescript className={styles.skillsIcon} />
+                    <span className={styles.skillsSpan}>Typescript</span>
                 </div>
             </section>
         </body>
