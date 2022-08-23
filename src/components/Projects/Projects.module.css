@@ -21,7 +21,7 @@
 
 .ProjectDescription {
     display: flex;
-    text-align: justify;
+    text-align: center;
     overflow: hidden;
     padding: 2rem;
     padding-left: 5rem;
