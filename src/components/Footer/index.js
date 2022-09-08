@@ -25,7 +25,7 @@ function Footer() {
                     <FaLinkedin color="white" size={48} />
                 </a>
                 <a
-                    href="https://drive.google.com/file/d/1CfVtRR6wnLoapxDJA6cx6j1wj1ob2xCq/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1PVU34whzjnaAJsgaPr-yVudjJsUP090y/view?usp=sharing"
                     download
                     target="blank"
                     rel="noreferrer">
