@@ -1,5 +1,5 @@
 import styles from './Projects.module.css'
-import undercpic from '../../assets/CT_pic.png'
+import undercpic from '../../assets/CryptoTrackerPic.png'
 
 function Placeholder() {
     return (

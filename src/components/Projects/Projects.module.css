@@ -49,6 +49,7 @@
     width: auto;
     height: 15rem;
     border-radius: 2%;
+    transition: box-shadow 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 1000px) {
@@ -77,8 +78,8 @@
 }
 
 .ProjectThumbnail:hover {
-    transition: 0.25s;
-    transform: skew(3deg, 3deg);
+    transition: box-shadow 0.5s ease-in-out;
+    box-shadow: 10px 15px 10px var(--primary-accent);
 }
 
 .ProjectBoxes {
