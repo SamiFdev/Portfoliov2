@@ -7,16 +7,21 @@ function Footer() {
         <footer className={styles.footer}>
             <div className={styles.footerLinks}>
                 <a
+                    title="Github"
                     className={styles.gitlink}
                     href="https://github.com/samifdev"
                     target="_blank"
                     rel="noreferrer">
                     <FaGithub color="white" size={48} />
                 </a>
-                <a className={styles.maillink} href="mailto:samifdev@gmail.com">
+                <a
+                    title="Email Me"
+                    className={styles.maillink}
+                    href="mailto:samifdev@gmail.com">
                     <FiMail color="white" size={48} />
                 </a>
                 <a
+                    title="Linkedin"
                     className={styles.linkedinlink}
                     href="https://www.linkedin.com/in/sami-fares-a3993a245
 "
@@ -25,6 +30,7 @@ function Footer() {
                     <FaLinkedin color="white" size={48} />
                 </a>
                 <a
+                    title="Get My Resume"
                     href="https://drive.google.com/file/d/1PVU34whzjnaAJsgaPr-yVudjJsUP090y/view?usp=sharing"
                     download
                     target="blank"

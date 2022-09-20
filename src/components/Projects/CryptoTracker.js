@@ -23,7 +23,7 @@ function Placeholder() {
             <div className={styles.ProjectLinkCont}>
                 <a
                     className={styles.FreelanceLink}
-                    href="https://cozy-tapioca-808c0f.netlify.app/"
+                    href="https://cryptotrackersf.netlify.app/"
                     target="_blank"
                     rel="noreferrer">
                     Check It Out!
