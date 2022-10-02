@@ -80,7 +80,7 @@ span {
     margin: 3rem auto;
     font-size: 1.45rem;
 
-    animation: typing 4.5s steps(55), blink-caret 0.5s step-end infinite;
+    animation: typing 5.5s steps(100), blink-caret 0.5s step-end infinite;
 }
 
 @media screen and (max-width: 750px) {
